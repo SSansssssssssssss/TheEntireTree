@@ -105,7 +105,7 @@ addLayer("ach", {
 			name: "undeascended",
 			tooltip: "have more than 100,000,000 ascended points",
 			image: "resources/ach14.png",
-			done() {return player.p.points.gte("1e8")}
+			done() {return player.a.points.gte("1e8")}
 		},
 		33: {
 			name: "there's no deboosting",
